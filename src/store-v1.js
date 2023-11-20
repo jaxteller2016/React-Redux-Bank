@@ -80,7 +80,7 @@ const store = createStore(rootReducer);
 // store.dispatch({ type: 'account/payLoan' });
 // console.log(store.getState());
 
-//          sconst ACCOUNT_DEPOSIT = 'account/deposit';
+// const ACCOUNT_DEPOSIT = 'account/deposit';
 
 function deposit(amount) {
   return { type: 'account/deposit', payload: amount };
@@ -126,6 +126,6 @@ function updateName(fullName) {
   return { type: 'customer/updateName', payload: fullName };
 }
 
-store.dispatch(createCustomer('Sorin Craciunescu', '1840714440013'));
+store.dispatch(createCustomer('Sorin', '123456789'));
 store.dispatch(deposit(250));
 console.log(store.getState());

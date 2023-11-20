@@ -16,7 +16,7 @@ import store from './store';
 // store.dispatch(payLoan());
 // console.log(store.getState());
 
-// store.dispatch(createCustomer('Sorin Craciunescu', '1840714440013'));
+// store.dispatch(createCustomer('Sorin', '123456789'));
 // store.dispatch(deposit(250));
 // console.log(store.getState());
 
